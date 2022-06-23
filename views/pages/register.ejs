@@ -1,0 +1,17 @@
+<link rel="stylesheet" href="css/form.css">
+<div class="form-container">
+	<form action="/register" method="POST">
+		<% if(error !== "") { -%>
+			<div class="error">
+				<p><%= error %></p>
+				<span onclick="document.querySelector('.error').style.display = 'none'">&times</span>
+			</div>
+		<% } %>
+		<input type="text" name="username"
+		placeholder="Username" autocomplete="off">
+		<input type="password" name="password"
+		placeholder="Password">
+		<input type="submit" value="REGISTER">
+		<p>Have an account? <a href="/login" style="color: #0066FF;">Login Here</a></p>
+	</form>
+</div>

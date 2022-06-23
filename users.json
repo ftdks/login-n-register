@@ -1,0 +1,24 @@
+[
+    {
+        "developer": true,
+        "username": "Zyee",
+        "password": "123456",
+        "description": "im new here"
+    },
+    {
+        "username": "admin",
+        "password": "test123"
+    },
+    {
+        "username": "test123",
+        "password": "adminn"
+    },
+    {
+        "username": "asd",
+        "password": "dsaasd"
+    },
+    {
+        "username": "   ",
+        "password": "\"\"\"\"\"\""
+    }
+]

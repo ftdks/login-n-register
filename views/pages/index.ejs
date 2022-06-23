@@ -1,0 +1,7 @@
+<h1>Hello <%= user.username %></h1>
+<% if (user.developer) { -%>
+	<h1>Accout Type: <font color="#FFA600">Developer</font></h1>
+<% } -%>
+<form action="/logout" method="POST">
+	<button class="logoutBtn" type="submit">LOGOUT</button>
+</form>
