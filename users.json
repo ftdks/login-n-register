@@ -6,8 +6,10 @@
         "description": "lorem ipsum dolor"
     },
     {
+        "developer": true,
         "username": "admin",
-        "password": "test123"
+        "password": "test123",
+        "description": "lorem ipsum dolor"
     },
     {
         "username": "test123",
